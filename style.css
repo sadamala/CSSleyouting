@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Warna latar belakang yang lebih cerah */
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 15px;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Bayangan untuk navbar */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px; /* Sudut membulat */
+    transition: background-color 0.3s; /* Transisi halus */
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.main-container {
+    display: flex;
+    margin: 20px; /* Margin untuk memberi jarak dari tepi */
+}
+
+.sidebar {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    width: 25%;
+    height: calc(100vh - 50px); /* Menyesuaikan dengan tinggi layar */
+    box-sizing: border-box;
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Bayangan untuk sidebar */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: white; /* Latar belakang putih untuk konten */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Bayangan untuk konten */
+}
+
+.education {
+    display: flex;
+    gap: 15px; /* Jarak antar item pendidikan */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.education-item {
+    background-color: #0066cc;
+    color: white;
+    padding: 15px;
+    width: 80px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s; /* Transisi halus saat hover */
+}
+
+.education-item:hover {
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+.story {
+    text-align: center;
+    font-size: 16px; /* Ukuran font yang lebih besar */
+    line-height: 1.5; /* Jarak antar baris */
+}
